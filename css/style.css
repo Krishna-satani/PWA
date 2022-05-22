@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.loginform{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000000;
+    padding: 15px;
+    width: 80%;
+}
+input,button{
+    margin-top: 10px;
+}
+h5{
+    text-align: center;
+}
+button{
+    background-color: rgb(3, 3, 84);
+    color: #ffffff;
+}
+
+@media screen and (min-width: 600px){
+
+    .loginform{
+       width: 400px;
+    }
+    
+}    
