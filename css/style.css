@@ -27,4 +27,10 @@ button{
        width: 400px;
     }
     
-}    
+}  
+.img{
+    height: 30%;
+    width: 30%;
+    align-items: center;    
+  
+}  
