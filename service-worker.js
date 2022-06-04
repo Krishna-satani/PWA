@@ -23,13 +23,13 @@ self.addEventListener('install', function (event) {
     self.skipWaiting()
     event.waitUntil(
         caches.open(cachename).then(res => {res.addAll([
-            "/PWA/",
-            "/PWA/index.html",
-            "/PWA/js/main.js",
-            "/PWA/css/style.css",
-            "/PWA/manifest.json",
-            "/PWA/icons/favicon-196.png",
-            "/PWA/images/loginlogo.png"
+            "/",
+            "/index.html",
+            "/js/main.js",
+            "/css/style.css",
+            "/manifest.json",
+            "/icons/favicon-196.png",
+            "/images/loginlogo.png"
         ])})
     
     )

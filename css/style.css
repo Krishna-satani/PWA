@@ -20,6 +20,19 @@ button{
     background-color: rgb(3, 3, 84);
     color: #ffffff;
 }
+.img{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+img{
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+}
+
 
 @media screen and (min-width: 600px){
 
@@ -28,9 +41,11 @@ button{
     }
     
 }  
-.img{
-    height: 30%;
-    width: 30%;
-    align-items: center;    
+img{
+    height: 200px;
+    width: 200px;
+    align-items: center;   
+    margin-left: 70px;
+    margin-right: 70px; 
   
 }  
